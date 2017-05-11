@@ -5,12 +5,16 @@ Starting
 Adding Wijmo
 - Download the Eval
 - http://demos.wijmo.com/5/React/ReactExternalModules/ReactExternalModules/
+- Another somewhat helpful link
 - http://wijmo.com/blog/integrating-wijmo-controls-module-loaders-bundlers/
-- 
-- npm install ../wijmo_download/NpmImages/wijmo-amd-min
 
-- add to package.json
+NPM Install the AMD Format Wijmo
+- Only install the AMD (Asynchronous Module Definition) Grid (only one of the three formats shipped)
+-- npm install ../wijmo_download/NpmImages/wijmo-amd-min
+- This should be add to package.json
 -- "wijmo": "5.20171.293"
+
+## React CLI standard Docs
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

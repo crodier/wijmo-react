@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as ReactDOM from 'react-dom';
 
-var ReactDOM = require("react-dom");
 //Wijmo
-var wjInput = require("wijmo/wijmo.react.input");
-var wjGrid = require("wijmo/wijmo.react.grid");
-var wjChart = require("wijmo/wijmo.react.chart");
+// var wjInput = require("wijmo/wijmo.react.input");
+// var wjGrid = require("wijmo/wijmo.react.grid");
+// var wjChart = require("wijmo/wijmo.react.chart");
 
+import * as wjGrid from "wijmo/wijmo.react.grid"
 
 class App extends Component {
 
